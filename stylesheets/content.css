@@ -1,0 +1,468 @@
+body{
+    height: 100%;
+}
+
+
+
+/* 
+.box{
+    width: 15vw;
+    height: 15vw;
+    background-color: antiquewhite;
+    margin: 1% auto;
+    border-radius: 10;
+    text-align: center;
+    display:none;
+} */
+
+@font-face {
+    font-family: 'akzidenzgroteskpro_lightex';
+    src: url(../fonts/akzidenzgroteskpro_lightex.ttf) format("truetype");
+    font-style: light;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'akzidenzgroteskpro_mdex';
+    src: url("../fonts/akzidenzgroteskpro_mdex.ttf") format("truetype");
+    font-style: medium;
+    font-weight: 500;
+}
+
+
+
+a{
+    font-family: 'akzidenzgroteskpro_mdex';
+}
+.box1{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    position: relative;
+    background: #F3B2C2;
+}
+
+
+
+.strelka{
+    position: relative;
+    width: 20%;
+    height: 10%;
+    transform-origin: center; /* Центр вращения стрелочки */
+}  
+
+.strelka1{
+    position: absolute;
+    width: 100%;
+}
+
+
+    
+.img2{
+    width: 80%;
+}
+.i2{
+    width: 100%;
+    height: 100vw;
+    z-index: 100;
+    position: absolute;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.navigation{
+    display: none; 
+    position: absolute;
+    width: 77%;
+    height: 42vw;
+    z-index: 110;
+    margin: 4.5% 9.5%;
+    color: white;
+    border-radius: 20%;
+    text-align: center;
+}
+
+.navigation_text{
+    position: relative;
+    font-size: 4vw;
+    z-index: 160;
+    margin-left: 6%;
+    margin-top: 15%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ a:hover{
+    color: rgb(210, 205, 205);
+}
+
+a:active{
+    text-decoration: none;
+    color: white;
+}
+
+.img3{
+    width: 110%;
+    z-index: 100;
+    position: absolute;
+    margin-left: -50%;
+}
+.img4{
+    width: 4vw;
+}
+.i4{
+    width: 4vw;
+    height: 100vw;
+    z-index: 100;
+    position: fixed;
+    margin-top: 2%;
+  margin-left: 2vw;
+}
+
+
+.strokapod1{
+font-size: 4vw ;
+color: rgb(0, 0, 0);
+position: absolute;
+margin-top: 2vw;
+margin-left: 80vw;
+z-index: 200;
+font-family: 'akzidenzgroteskpro_mdex';
+}
+.img5{
+    width: 4vw;
+}
+.i5{
+    width: 4vw;
+
+    margin-top: 2%;
+  margin-left: 2vw;
+}
+.strokapod2{
+    font-size: 4vw ;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -4vw;
+    margin-left: 80vw;
+
+    font-family: 'akzidenzgroteskpro_mdex';
+    }
+
+    .strokapod3{
+        font-size: 2.5vw ;
+        color: rgb(255, 255, 255);
+        position: relative;
+        margin-top: 2vw;
+        margin-left: 2vw;
+margin-bottom: -4vw;
+        font-family: 'akzidenzgroteskpro_mdex';
+        }
+
+
+.img6{
+    width: 100%;
+    margin-top: 6.6vw;
+}
+.img7{
+    width: 100%;
+    margin-top: 6.6vw;
+}
+
+.img8{
+    width: 100%;
+    margin-top: -0.3vw;
+}
+
+.img9{
+    width: 100%;
+    margin-top: 10vw;
+}
+
+.img10{
+    width: 4vw;
+margin-top: -4.3%;
+    margin-bottom: 5%;
+    margin-left: 2vw;
+}
+
+.strokapod4{
+    font-size: 2.5vw ;
+    color: #1A1A1A;
+    position: absolute;
+    margin-top:  1%;
+    margin-left: 39%;
+
+    font-family: 'akzidenzgroteskpro_mdex';
+    }
+
+    .strokapod5{
+        font-size: 2.5vw ;
+        color: #1A1A1A;
+        position: absolute;
+        margin-top:  1%;
+        margin-left: 50%;
+    
+        font-family: 'akzidenzgroteskpro_lightex';
+         
+        }
+
+        .img12{
+            width: 100%;
+            margin-top: 6.6vw;
+        }
+
+        .strokapod6{
+            font-size: 2.5vw ;
+            color: #1A1A1A;
+            position: absolute;
+       
+            margin-left:2vw;
+            margin-top: 4vw;
+            font-family: 'akzidenzgroteskpro_mdex';
+             
+            }
+
+
+        .img13{
+            width: 24%;
+            margin-top:  6.6vw;
+        }
+
+    
+
+
+        .img14{
+            width: 24%;
+            margin-top:  6.6vw;
+        }
+
+     
+
+        .img15{
+            width: 24%;
+            margin-top:  9vw;
+        }
+        .img16{
+            width: 24%;
+            margin-top:  6.6vw;
+        }
+
+        .img17{
+            width: 100%;
+           margin-top: 5vw;
+        }
+
+        .img18{
+            width: 24%;
+            margin-top: 6.6vw;
+        }
+        .img19{
+            width: 24%;
+            margin-top: 6.6vw;
+        }
+        .img20{
+            width: 24%;
+            margin-top: 6.6vw;
+        }
+        .img21{
+            width: 24%;
+            margin-top: 6.6vw; 
+        }
+        .img22{
+            width: 24%;
+            margin-top: 6.6vw; 
+        }
+        .img23{
+            width: 100%;
+            margin-top: 6.6vw;
+        }
+
+        .strokapod7{
+    
+            font-size: 2.5vw ;
+            color: #F3B2C2;
+            position: absolute;
+            margin-top: -8vw;
+            margin-left: 49vw;
+        
+            font-family: 'akzidenzgroteskpro_mdex';
+            }
+
+            .img24{
+                width: 100%;
+                margin-top: 6.6vw;
+               
+            }
+    
+            .strokapod8{
+                font-size: 2.5vw ;
+                color: #F3B2C2;
+                position: absolute;
+              
+                margin-left: 2vw;
+            
+                font-family: 'akzidenzgroteskpro_mdex';
+                }
+
+                .img25{
+                    width: 100%;
+                    margin-top: 6.6vw;
+                   
+                }
+
+
+                .strokapod9{
+                    font-size: 4vw ;
+                    color: #202020;
+                    position: absolute;
+                    margin-top: -4vw;
+                    margin-left: 80vw;
+                
+                    font-family: 'akzidenzgroteskpro_mdex';
+                    }
+
+
+
+    .strokapod10{
+        font-size: 2.5vw ;
+        color: #202020;
+        position: relative;
+        margin-top: 2vw;
+        margin-left: 2vw;
+    
+        font-family: 'akzidenzgroteskpro_mdex';
+        }
+        .strokapod11{
+            font-size: 4vw ;
+            color: #202020;
+            position: absolute;
+            margin-top: -4vw;
+            margin-left: 80vw;
+           position: relative;
+            font-family: 'akzidenzgroteskpro_mdex';
+            }
+        
+            .img29{
+                width: 100%;
+                margin-top: 15vw;
+            }
+
+            
+
+
+            .slider-container {
+                width: 1400px;
+                margin: auto;
+                overflow: hidden;
+                position: relative;
+                }
+                
+                .slides {
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+                }
+                
+                .slide {
+                min-width: 100%;
+                box-sizing: border-box;
+                }
+                
+                .slide img {
+                width: 100%;
+                }
+                
+                .buttons {
+                    position: absolute;
+                    top: 70%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    transform: translateY(-50%);
+                }
+                
+                .buttons button {
+                    background-color: rgba(0,0,0,0.5);
+                    border: none;
+                    color: white;
+                    padding: 10px;
+                    cursor: pointer;
+                }
+                
+                .hover-text {
+                    text-align: center;
+                    margin-top: 10px;
+                    font-family: 'akzidenzgroteskpro_mdex';
+                }
+                
+                .slider-container {
+                    width: 60%;
+                    margin: auto;
+                    overflow: hidden;
+                    position: relative;
+                }
+                
+                .slides {
+                    display: flex;
+                    transition: transform 0.5s ease-in-out;
+                }
+                
+                .slide {
+                    min-width: 100%;
+                    box-sizing: border-box;
+                }
+                
+                .slide img {
+                    width: 100%;
+                }
+                
+                .buttons {
+                    position: absolute;
+                    top: 50%;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    transform: translateY(-50%);
+                }
+                
+                .buttons button {
+                    background-color: rgba(255, 255, 255, 0.5);
+                    border: none;
+                    color: rgb(0, 0, 0);
+                    padding: 10px;
+                    cursor: pointer;
+                    border-radius: 100px;
+                }
+
+
+                .strokapod12{
+    
+                    font-size: 2.5vw ;
+                    color: #F3B2C2;
+              
+                    margin-top: 2.5vw;
+                   
+                text-align: center;
+                    font-family: 'akzidenzgroteskpro_mdex';
+                    }
+
+
+
+                    .modal{
+                        font-family: 'akzidenzgroteskpro_mdex';
+                         margin-left: 40vw;
+                         font-size: 2.5vw ;
+                    }
+
+
+                    .name{
+                        margin-top: 1vw;  
+                    }
+                 .sub{
+                        margin-top: 0vw;
+                        font-family: 'akzidenzgroteskpro_mdex';
+                    }
+
+                   
+          
